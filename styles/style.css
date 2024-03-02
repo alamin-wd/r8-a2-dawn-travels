@@ -176,6 +176,69 @@ ul>li {
 
 /* Tours section Styles End*/
 
+/* Perfect place section styles start */
+
+.place-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 100px;
+}
+
+.place-container .place-content ul>li {
+
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* Perfect place section styles end */
+
+/* Footer Styles Start */
+
+.footer-container {
+    margin-top: 100px;
+    padding: 100px;
+    max-width: 1440px;
+    max-height: 500px;
+    background-color: #1313180D;
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-logo {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+hr {
+    margin: 50px 200px;
+    color: #1313181A;
+}
+
+
+/* Footer Styles End */
+
 /* Responsive Styles for Mobile view */
 
 /* header section responsive */
@@ -263,3 +326,42 @@ ul>li {
 }
 
 /* Tours section responsive end*/
+
+/* Perfect place responsive start */
+
+@media screen and (max-width:600px) {
+    .place-container {
+        flex-direction: column;
+        margin: 0px 25px;
+    }
+
+    .tittles {
+        margin-top: 24px;
+        font-size: 20px;
+    }
+
+    .place-content {
+        width: 100%;
+    }
+
+    .place-container>img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Perfect place responsive end */
+
+/* Footer responsive Styles */
+@media screen and (max-width:600px) {
+    .footer-container {
+        padding: 50px;
+        text-align: center;
+    }
+
+    hr {
+        margin: 30px auto;
+        width: 90%;
+        text-align: center;
+    }
+}
